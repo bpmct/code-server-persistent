@@ -11,7 +11,7 @@ export PATH="$HOME/.local/bin:$HOME/tools:$HOME/tools/homebrew/bin:$PATH"
 
 # run install.sh if it hasn't been ran yet
 if [ ! -f "/usr/local/install_complete" ]; then
-    /bin/bash $HOME/install.sh
+    /bin/bash $HOME/install.sh&
 fi
 
 # end default .bashrc
